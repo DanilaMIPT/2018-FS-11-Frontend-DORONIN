@@ -1,0 +1,27 @@
+{
+  "name": "batman_f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"dev": "webpack --mode development",
+	"build": "webpack --mode production",
+    	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanilaMIPT/2018-FS-11-Frontend-Doronin.git"
+  },
+  "author": "Danila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanilaMIPT/2018-FS-11-Frontend-Doronin/issues"
+  },
+  "homepage": "https://github.com/DanilaMIPT/2018-FS-11-Frontend-Doronin#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.20.2"
+  }
+}
